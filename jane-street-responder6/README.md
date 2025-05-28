@@ -5,7 +5,7 @@ Develop a machine learning model to predict `responder_6` using a large, anonymi
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 - **Languages:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn  
 - **ML Techniques:** Feature selection, normalization, cross-validation, ensemble models, PCA  
@@ -13,14 +13,14 @@ Develop a machine learning model to predict `responder_6` using a large, anonymi
 
 ---
 
-## 📊 Dataset Summary
+## Dataset Summary
 - 47M rows, 92 anonymized features
 - Target: `responder_6` — modeled as a regression problem
 - Source: [Kaggle Competition](https://www.kaggle.com/competitions/jane-street-market-prediction)
 
 ---
 
-## 🔍 Project Highlights
+## Project Highlights
 
 ### Feature Engineering & EDA
 - Dropped irrelevant responders and high-missing-value features
@@ -39,7 +39,7 @@ Develop a machine learning model to predict `responder_6` using a large, anonymi
 
 ---
 
-## ✅ Results & Insights
+## Results & Insights
 - No single model exceeded R² of 0.015 — consistent with leaderboard top scores
 - Feature_06 and Feature_04 were most influential
 - Even minor R² gains are significant in finance, where tiny predictive edges matter
@@ -50,20 +50,17 @@ Develop a machine learning model to predict `responder_6` using a large, anonymi
 
 ---
 
-## 📚 Key Takeaways
+## Key Takeaways
 - Financial data is inherently noisy and difficult to predict
 - Ensemble models with selective feature engineering outperformed deep models here
 - Kaggle benchmark scores confirmed project challenges mirror real-world limitations
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 - `notebooks/`: Preprocessing, EDA, model pipelines
-- `data/`: (If uploaded, use only small samples)
 - `README.md`: This file
 
 ---
-
-🧠 _This project demonstrates my ability to handle massive, noisy datasets and model complex financial signals using efficient, tuned ML techniques._
 
 
