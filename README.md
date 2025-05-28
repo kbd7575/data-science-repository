@@ -4,7 +4,7 @@ Data Science Portfolio
 
 M.S. Applied Data Science (in progress)  
 B.S. Chemical Engineering | 12+ years experience  
-Based in Washington, D.C. metro area | Focus: Pharma, Manufacturing, Health Analytics
+Based in Washington, D.C. metro area 
 
 ---
 
@@ -41,7 +41,6 @@ Explored 120 years of Olympic data to analyze gender participation, medal distri
 - **Languages:** Python, R, SQL  
 - **Libraries:** Scikit-learn, XGBoost, TensorFlow, Keras, Pandas, NumPy, Seaborn, Matplotlib  
 - **Tools:** Git, Jupyter, Google Colab, Excel, Aspen HYSYS, ProMax  
-- **Domains:** Manufacturing, Pharma, Financial Modeling, Health Analytics  
 - **Learning:** PySpark, NLP, AWS, Tableau
 
 ---
@@ -50,9 +49,4 @@ Explored 120 years of Olympic data to analyze gender participation, medal distri
 
 - [LinkedIn](https://www.linkedin.com/in/kéli-duggar-84889299)
 - [Email Me](mailto:keliduggar@gmail.com)
-- [View My Resume](./resume.pdf) _(optional if you add it to the repo)_
-
----
-
-Thanks for visiting! Feel free to explore any project and reach out if you want to collaborate or discuss data science applications in manufacturing, pharma, or process optimization.
-
+- [View My Resume](documents/Resume of Keli Duggar.pdf)
