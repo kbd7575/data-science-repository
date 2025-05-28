@@ -9,9 +9,9 @@ B.S. Chemical Engineering | 12+ years experience
 
 ## About Me
 
-I'm a data science specialist with a background in chemical manufacturing and process engineering. I bring over a decade of  project experience to the table, now applying my analytical and technical skills to solving real-world challenges in pharmaceuticals, life sciences, and industrial data environments.
+I'm a data science specialist with a background in chemical manufacturing and process engineering. I bring over a decade of project experience to the table, now applying my analytical and technical skills to solving real-world challenges in pharmaceuticals, life sciences, and industrial data environments.
 
-This portfolio showcases practical applications of machine learning, predictive analytics, and data visualization—focusing on projects that bridge the gap between **engineering systems** and **data-driven insight**.
+This portfolio showcases practical applications of machine learning, predictive analytics, and data visualization.
 
 ---
 
