@@ -1,11 +1,11 @@
 # Diabetes Risk Prediction
 
-## 📌 Project Overview
+## Project Overview
 This project aims to build a predictive model that identifies individuals at risk for diabetes using health and lifestyle data. The dataset, derived from the CDC’s Behavioral Risk Factor Surveillance System (BRFSS), was used to train multiple machine learning models with a focus on recall—minimizing false negatives in a critical healthcare context.
 
 ---
 
-## 🧰 Tools & Technologies
+## Tools & Technologies
 - Python (Pandas, NumPy, Scikit-learn)
 - Decision Tree, Random Forest
 - SMOTETomek, ADASYN (resampling)
@@ -14,14 +14,14 @@ This project aims to build a predictive model that identifies individuals at ris
 
 ---
 
-## 📊 Dataset Summary
+## Dataset Summary
 - Source: CDC BRFSS via UCI Machine Learning Repository
 - Size: 253,680 rows × 21 features
 - Target: `diabetes_012` (0 = healthy, 1 = pre-diabetes, 2 = diabetes)
 
 ---
 
-## 🧪 Modeling Approach
+## Modeling Approach
 
 | Model      | Description                                           | Key Performance Metric |
 |------------|-------------------------------------------------------|-------------------------|
@@ -37,7 +37,7 @@ This project aims to build a predictive model that identifies individuals at ris
 
 ---
 
-## ✅ Results
+## Results
 
 | Model     | Accuracy | Class 2 Recall | Notes |
 |-----------|----------|----------------|-------|
@@ -49,7 +49,7 @@ This project aims to build a predictive model that identifies individuals at ris
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 - A false negative (missed diabetes case) is more harmful than a false positive.
 - Class imbalance dramatically affects multi-class model performance.
 - SMOTE + PCA significantly improved recall for minority class (diabetes = 2).
@@ -57,20 +57,13 @@ This project aims to build a predictive model that identifies individuals at ris
 
 ---
 
-## 📂 Files
+## Files
 - `notebooks/` — Full modeling and evaluation code
-- `data/` — Public UCI dataset (or a sample)
 - `README.md` — Project overview
 
 ---
 
-## 🔍 Future Work
-- Explore neural networks for deeper interaction modeling
-- Add socioeconomic and geographic data for disparity analysis
-- Deploy a lightweight API model for front-line medical screening tools
 
----
 
-📌 _This project showcases practical healthcare data science, including stakeholder-driven metric prioritization, imbalanced classification strategies, and real-world ML trade-offs._
 
 
