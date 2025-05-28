@@ -4,7 +4,6 @@ Data Science Portfolio
 
 M.S. Applied Data Science (in progress)  
 B.S. Chemical Engineering | 12+ years experience  
-Based in Washington, D.C. metro area 
 
 ---
 
