@@ -58,9 +58,8 @@ Develop a machine learning model to predict `responder_6` using a large, anonymi
 ---
 
 ## Repository Structure
-- `notebooks/`: Preprocessing, EDA, model pipelines
+- `Jane Street Real-Time Market Data Forecasting Notebook.ipynb`: Preprocessing, EDA, model pipelines
 - `README.md`: This file
-
 ---
 
 
