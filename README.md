@@ -49,3 +49,4 @@ Explored 120 years of Olympic data to analyze gender participation, medal distri
 - [LinkedIn](https://www.linkedin.com/in/kéli-duggar-84889299)
 - [Email Me](mailto:keliduggar@gmail.com)
 - [View My Resume](./documents/Resume of Keli Duggar.pdf)
+- documents/Resume of Keli Duggar.pdf
