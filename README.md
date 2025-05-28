@@ -1,2 +1,58 @@
 # data-science-repository
 Data Science Portfolio
+# Kéli Duggar | Data Science Portfolio
+
+M.S. Applied Data Science (in progress)  
+B.S. Chemical Engineering | 12+ years experience  
+Based in Washington, D.C. metro area | Focus: Pharma, Manufacturing, Health Analytics
+
+---
+
+## About Me
+
+I'm a data science specialist with a background in chemical manufacturing and process engineering. I bring over a decade of  project experience to the table, now applying my analytical and technical skills to solving real-world challenges in pharmaceuticals, life sciences, and industrial data environments.
+
+This portfolio showcases practical applications of machine learning, predictive analytics, and data visualization—focusing on projects that bridge the gap between **engineering systems** and **data-driven insight**.
+
+---
+
+## Projects
+
+### 🧠 [Jane Street Market Prediction](./jane-street-responder6)
+> Time Series Forecasting | Financial ML | XGBoost, Feature Engineering  
+Used 47M-row anonymized market dataset from Kaggle to predict a noisy regression target (`responder_6`). Achieved R² of 0.0129 with tuned ensemble models.
+
+---
+
+### [Diabetes Risk Classification (Coming Soon)](./diabetes-prediction)
+> Healthcare | Classification | Random Forest, Logistic Regression  
+Developed a binary classification model to identify likely undiagnosed diabetes cases using medical record data. Highest F1 Score: 0.91.
+
+---
+
+### [Olympics Data Analysis](./olympics-eda)
+> Data Visualization | EDA | Pandas, Seaborn  
+Explored 120 years of Olympic data to analyze gender participation, medal distribution, and event growth using visual storytelling techniques.
+
+---
+
+## Skills & Tools
+
+- **Languages:** Python, R, SQL  
+- **Libraries:** Scikit-learn, XGBoost, TensorFlow, Keras, Pandas, NumPy, Seaborn, Matplotlib  
+- **Tools:** Git, Jupyter, Google Colab, Excel, Aspen HYSYS, ProMax  
+- **Domains:** Manufacturing, Pharma, Financial Modeling, Health Analytics  
+- **Learning:** PySpark, NLP, AWS, Tableau
+
+---
+
+## Connect With Me
+
+- [LinkedIn](https://www.linkedin.com/in/kéli-duggar-84889299)
+- [Email Me](mailto:keliduggar@gmail.com)
+- [View My Resume](./resume.pdf) _(optional if you add it to the repo)_
+
+---
+
+Thanks for visiting! Feel free to explore any project and reach out if you want to collaborate or discuss data science applications in manufacturing, pharma, or process optimization.
+
