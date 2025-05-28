@@ -38,7 +38,6 @@ This project analyzes historical trends and patterns in the Olympic Games from 1
 ## Files in This Repo
 
 - `Olympics Data Analysis.ipynb` - Jupyter notebooks for EDA and modeling
-- `visuals/` - All static plots and word clouds
 - `README.md` - This file
 
 
