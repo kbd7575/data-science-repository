@@ -29,7 +29,7 @@ This project analyzes historical trends and patterns in the Olympic Games from 1
 - Decision Tree model (max_depth=3) predicted medal class with 87% accuracy
 - Social media sentiment during 2020 Olympics was largely positive
 
-## 🤖 ML Model Performance
+## ML Model Performance
 
 - Accuracy: 87%
 - Most accurate for predicting silver medalists
