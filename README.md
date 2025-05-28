@@ -38,9 +38,9 @@ Explored 120 years of Olympic data to analyze gender participation, medal distri
 ## Skills & Tools
 
 - **Languages:** Python, R, SQL  
-- **Libraries:** Scikit-learn, XGBoost, TensorFlow, Keras, Pandas, NumPy, Seaborn, Matplotlib  
+- **Libraries:** Scikit-learn, XGBoost,  Keras, Pandas, NumPy, Seaborn, Matplotlib, PySpark
 - **Tools:** Git, Jupyter, Google Colab, Excel, Aspen HYSYS, ProMax  
-- **Learning:** PySpark, NLP, AWS, Tableau
+- **Learning:** NLP, TensorFlow
 
 ---
 
@@ -49,4 +49,5 @@ Explored 120 years of Olympic data to analyze gender participation, medal distri
 - [LinkedIn](https://www.linkedin.com/in/kéli-duggar-84889299)
 - [Email Me](mailto:keliduggar@gmail.com)
 - [View My Resume](./documents/Resume of Keli Duggar.pdf)
-- documents/Resume of Keli Duggar.pdf
+- [View My Resume](./documents/Resume%20of%20Keli%20Duggar.pdf)
+
