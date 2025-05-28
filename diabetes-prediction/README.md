@@ -58,7 +58,9 @@ This project aims to build a predictive model that identifies individuals at ris
 ---
 
 ## Files
-- `notebooks/` — Full modeling and evaluation code
+- `Diabetes Prediction Model1_Balanced.ipynb` — Full modeling and evaluation code for Model 1
+- `Diabetes Prediction Model2_basemodel_Imbalanced.ipynb` — Full modeling and evaluation code for Model 2
+- `Diabetes Prediction Model3_Smote_Imbalanced.ipynb` — Full modeling and evaluation code for Model 3
 - `README.md` — Project overview
 
 ---
