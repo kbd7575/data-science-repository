@@ -2,7 +2,7 @@
 
 This project analyzes historical trends and patterns in the Olympic Games from 1896 through 2024, with a particular focus on the 2020 Tokyo and 2024 Paris Summer Games.
 
-## 🔍 Objectives
+## Objectives
 
 - Analyze medal distributions by country and sport
 - Explore gender participation trends over time
@@ -10,19 +10,19 @@ This project analyzes historical trends and patterns in the Olympic Games from 1
 - Predict medal outcomes using classification models
 - Examine sentiment and tweet trends during the Olympics
 
-## 📊 Tools & Technologies
+## Tools & Technologies
 
 - Python (Pandas, Matplotlib, Seaborn, Scikit-learn)
 - Decision Tree Classifier
 - Kaggle datasets
 - Natural Language Processing (NLP): Sentiment analysis, Word Cloud
 
-## 📁 Data Sources
+## Data Sources
 
 - [Summer Olympics Medals 1896–2024](https://www.kaggle.com/datasets/stefanydeoliveira/summer-olympics-medals-1896-2024)
 - Custom CSV/Excel files for medal counts, athletes, and Twitter sentiment
 
-## 🧠 Key Insights
+## Key Insights
 
 - USA and China consistently dominate medal counts
 - Gender parity is increasing, though some sports remain skewed
@@ -35,17 +35,11 @@ This project analyzes historical trends and patterns in the Olympic Games from 1
 - Most accurate for predicting silver medalists
 - Class Imbalance addressed with pruning techniques
 
-## 📌 Contributors
-
-Kéli Davis  
-Maybel Herrera  
-Sandy Leung
-
-## 📎 Files in This Repo
+## Files in This Repo
 
 - `data/` - Contains datasets used
 - `notebooks/` - Jupyter notebooks for EDA and modeling
 - `visuals/` - All static plots and word clouds
-- `README.md` - You’re here!
+- `README.md` - This file
 
 
