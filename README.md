@@ -18,13 +18,13 @@ This portfolio showcases practical applications of machine learning, predictive 
 
 ## Projects
 
-### 🧠 [Jane Street Market Prediction](./jane-street-responder6)
+### [Jane Street Market Prediction](./jane-street-responder6)
 > Time Series Forecasting | Financial ML | XGBoost, Feature Engineering  
 Used 47M-row anonymized market dataset from Kaggle to predict a noisy regression target (`responder_6`). Achieved R² of 0.0129 with tuned ensemble models.
 
 ---
 
-### [Diabetes Risk Classification (Coming Soon)](./diabetes-prediction)
+### [Diabetes Risk Classification](./diabetes-prediction)
 > Healthcare | Classification | Random Forest, Logistic Regression  
 Developed a binary classification model to identify likely undiagnosed diabetes cases using medical record data. Highest F1 Score: 0.91.
 
