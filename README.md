@@ -9,7 +9,7 @@ B.S. Chemical Engineering | 12+ years experience
 
 ## About Me
 
-I'm a data science specialist with a background in chemical manufacturing and process engineering. I bring over a decade of project experience to the table, now applying my analytical and technical skills to solving real-world challenges in pharmaceuticals, life sciences, and industrial data environments.
+I'm a data scientist with a background in chemical manufacturing and process design engineering. I have extensive experience in building chemical engineering models, designing case studies and plant tests, technical calculations, and data anaysis. I also bring over a decade of project execution experience to the table. Now I would like to apply my analytical and technical skills to solving real-world challenges in pharmaceuticals, life sciences, and industrial data environments.
 
 This portfolio showcases practical applications of machine learning, predictive analytics, and data visualization.
 
@@ -30,10 +30,39 @@ Developed a binary classification model to identify likely undiagnosed diabetes 
 ---
 
 ### [Olympics Data Analysis](./olympics-eda)
-> Data Visualization | EDA | Pandas, Seaborn  
+> Data Visualization | EDA | Pandas, Seaborn, Matplotlib
 Explored 120 years of Olympic data to analyze gender participation, medal distribution, and event growth using visual storytelling techniques.
 
 ---
+
+### [Domestic Violence EDA and Risk Assessment](./Domestic Violence Risk Assessment)
+> Data Visualization | EDA | Classification | Pandas, Seaborn, Matplotlib, Decision Tree
+Analyzed data to determine what demographic and socio-economic factors put the women in a specific community at the most risk for domestic violence.
+
+---
+
+### [Project 5](./Project 5) Manufacturing Defect
+
+---
+
+### [Project 6](./Project 6) Image Classification
+
+---
+
+### [Project 7](./Project 7) NLP
+
+--
+
+### [Project 8](./Project 8) Text Mining
+
+--
+
+### [Project 9](./Project 9) SQL
+
+--
+
+### [Project 10](./Project 10) R
+
 
 ## Skills & Tools
 
