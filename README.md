@@ -17,7 +17,7 @@ This portfolio showcases practical applications of machine learning, predictive 
 
 ## Projects
 
-### [Manufacturing Defect Detection](./Manufacturing Defect Detection)
+### [Manufacturing Defect Detection](./manufacturing_defect_detection)
 > Manufacturing | Regression | Classification | Random Forest, LightGBM, Logistic Regression | Feature Engineering
 Developed a binary classification model to identify defective materials. Compared performance of 3 baseline models with no feature engineering and 3 models with feature engineering. Selected final model based on high performance in all metrics espeically recall (which  is assumed the most important metric as it represents the model’s ability to correctly identify defective materials). Baseline LightGBM achieved 0.95 recall and 0.85 ROC AUC.
 
