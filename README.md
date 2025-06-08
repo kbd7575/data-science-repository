@@ -23,7 +23,7 @@ Developed a binary classification model to identify defective materials. Compare
 
 ---
 
-### [Domestic Violence EDA and Risk Assessment](./Domestic Violence Risk Assessment)
+### [Domestic Violence EDA and Risk Assessment](./domestic violence eda and risk analysis)
 > Data Visualization | EDA | Classification | Pandas, Seaborn, Matplotlib, Decision Tree
 Analyzed data to determine what demographic and socio-economic factors put the women in a specific community at the most risk for domestic violence.
 
