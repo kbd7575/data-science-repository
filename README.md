@@ -17,6 +17,18 @@ This portfolio showcases practical applications of machine learning, predictive 
 
 ## Projects
 
+### [Manufacturing Defect Detection](./Manufacturing Defect Detection)
+> Manufacturing | Regression | Classification | Random Forest, LightGBM, Logistic Regression | Feature Engineering
+Developed a binary classification model to identify defective materials. Compared performance of 3 baseline models with no feature engineering and 3 models with feature engineering. Selected final model based on high performance in all metrics espeically recall (which  is assumed the most important metric as it represents the model’s ability to correctly identify defective materials). Baseline LightGBM achieved 0.95 recall and 0.85 ROC AUC.
+
+---
+
+### [Domestic Violence EDA and Risk Assessment](./Domestic Violence Risk Assessment)
+> Data Visualization | EDA | Classification | Pandas, Seaborn, Matplotlib, Decision Tree
+Analyzed data to determine what demographic and socio-economic factors put the women in a specific community at the most risk for domestic violence.
+
+---
+
 ### [Jane Street Market Prediction](./jane-street-responder6)
 > Time Series Forecasting | Financial ML | XGBoost, Feature Engineering  
 Used 47M-row anonymized market dataset from Kaggle to predict a noisy regression target (`responder_6`). Achieved R² of 0.0129 with tuned ensemble models.
@@ -32,16 +44,6 @@ Developed a binary classification model to identify likely undiagnosed diabetes 
 ### [Olympics Data Analysis](./olympics-eda)
 > Data Visualization | EDA | Pandas, Seaborn, Matplotlib
 Explored 120 years of Olympic data to analyze gender participation, medal distribution, and event growth using visual storytelling techniques.
-
----
-
-### [Domestic Violence EDA and Risk Assessment](./Domestic Violence Risk Assessment)
-> Data Visualization | EDA | Classification | Pandas, Seaborn, Matplotlib, Decision Tree
-Analyzed data to determine what demographic and socio-economic factors put the women in a specific community at the most risk for domestic violence.
-
----
-
-### [Project 5](./Project 5) Manufacturing Defect
 
 ---
 
@@ -67,7 +69,7 @@ Analyzed data to determine what demographic and socio-economic factors put the w
 ## Skills & Tools
 
 - **Languages:** Python, R, SQL  
-- **Libraries:** Scikit-learn, XGBoost,  Keras, Pandas, NumPy, Seaborn, Matplotlib, PySpark
+- **Libraries:** Scikit-learn, XGBoost, LightGBM,  Keras, Pandas, NumPy, Seaborn, Matplotlib, PySpark
 - **Tools:** Git, Jupyter, Google Colab, Excel, Aspen HYSYS, ProMax  
 - **Learning:** NLP, TensorFlow
 
