@@ -8,7 +8,7 @@ This project builds a classification model to predict defect status in a manufac
 
 - Source: Kaggle (Manufacturing Defect Dataset)
 - Records: 3,240 production batches
-- Target Variable: `DefectStatus` (0 = Non-defective, 1 = Defective)
+- Target Variable: DefectStatus (0 = Non-defective, 1 = Defective)
 
 ### Features include:
 
