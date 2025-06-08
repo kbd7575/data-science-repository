@@ -35,7 +35,7 @@ Each record includes:
 - One-Hot Encoding was used for all categorical variables.
 - Target variable (Violence) was converted to binary (target).
 - Data was split into train/test using train_test_split with stratification to preserve class balance.
-- Class imbalance was addressed using class_weight=balanced in classifiers.
+- Class imbalance was addressed using class_weight=balanced.
 
 ### Models Tested
 
