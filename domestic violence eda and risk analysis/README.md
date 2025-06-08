@@ -39,8 +39,6 @@ Each record includes:
 
 ### Models Tested
 
-- Logistic Regression
-- Random Forest
 - Decision Tree (used for interpretability)
 - Feature importance was calculated using Random Forest.
 
