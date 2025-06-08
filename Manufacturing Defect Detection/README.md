@@ -6,17 +6,17 @@ This project builds a classification model to predict defect status in a manufac
 
 ## Dataset Overview
 
-- **Source:** Kaggle (Manufacturing Defect Dataset)
-- **Records:** 3,240 production batches
-- **Target Variable:** `DefectStatus` (0 = Non-defective, 1 = Defective)
+- Source: Kaggle (Manufacturing Defect Dataset)
+- Records: 3,240 production batches
+- Target Variable: `DefectStatus` (0 = Non-defective, 1 = Defective)
 
 ### Features include:
 
-- **Production Metrics:** `ProductionVolume`, `ProductionCost`, `DefectRate`
-- **Quality Indicators:** `SupplierQuality`, `QualityScore`, `MaintenanceHours`
-- **Logistics & Operations:** `DeliveryDelay`, `DowntimePercentage`, `InventoryTurnover`, `EnergyConsumption`
-- **Workforce & Safety:** `WorkerProductivity`, `SafetyIncidents`
-- **Additive Manufacturing:** `AdditiveProcessTime`, `AdditiveMaterialCost`
+- **Production Metrics:** ProductionVolume, ProductionCost, DefectRate
+- **Quality Indicators:** SupplierQuality, QualityScore, MaintenanceHours
+- **Logistics & Operations:** DeliveryDelay, DowntimePercentage, InventoryTurnover, EnergyConsumption
+- **Workforce & Safety:** WorkerProductivity, SafetyIncidents
+- **Additive Manufacturing:** AdditiveProcessTime, AdditiveMaterialCost
 
 ---
 
@@ -29,26 +29,26 @@ This project builds a classification model to predict defect status in a manufac
 - Imbalance in `DefectStatus` observed
 
 ### 2. Baseline Modeling
-- Scaled all features using `StandardScaler`
-- Models evaluated: `Logistic Regression`, `Random Forest`, `LightGBM`
+- Scaled all features using StandardScaler
+- Models evaluated: Logistic Regression, Random Forest, LightGBM
 - Evaluation Metrics: Accuracy, Precision, Recall, F1 Score, ROC AUC
-- Target imbalance handled with `class_weight='balanced'` for appropriate models
+- Target imbalance handled with class_weight='balanced' for appropriate models
 
 ### 3. Feature Engineering
-- Log transformation: `log(ProductionVolume)`
-- Interaction terms: `Production x DefectRate`, `Defect per Quality`, `Defect per Maintenance`
-- Categorical binning: `MaintenanceHours` binned into Low, Medium, High and one-hot encoded
-- Dropped redundant features: raw `DefectRate`, `ProductionVolume`, and `MaintenanceHours`
+- Log transformation: log(ProductionVolume)
+- Interaction terms: Production x DefectRate, Defect per Quality, Defect per Maintenance
+- Categorical binning: MaintenanceHours binned into Low, Medium, High and one-hot encoded
+- Dropped redundant features: raw DefectRate, ProductionVolume, and MaintenanceHours
 
 ### 4. Re-Modeling with Engineered Features
 - Re-trained all models using engineered features
 - Assessed improvements in model performance
 
 ### 5. Hyperparameter Tuning
-- Performed `GridSearchCV` for:
-  - `Logistic Regression` (C, penalty)
-  - `Random Forest` (n_estimators, depth, split criteria)
-  - `LightGBM` (leaves, depth, learning rate)
+- Performed GridSearchCV for:
+  - Logistic Regression (C, penalty)
+  - Random Forest (n_estimators, depth, split criteria)
+  - LightGBM (leaves, depth, learning rate)
 
 ### 6. Cross-Validation
 - Applied Stratified 5-Fold Cross Validation
@@ -79,6 +79,6 @@ This project builds a classification model to predict defect status in a manufac
 ## Requirements
 
 - Libraries:
-  - `pandas`, `numpy`, `matplotlib`, `seaborn`
-  - `scikit-learn`
-  - `lightgbm`
+  - pandas, numpy, matplotlib, seaborn
+  - scikit-learn
+  - lightgbm
