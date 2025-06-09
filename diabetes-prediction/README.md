@@ -17,7 +17,7 @@ This project aims to build a predictive model that identifies individuals at ris
 ## Dataset Summary
 - Source: CDC BRFSS via UCI Machine Learning Repository
 - Size: 253,680 rows × 21 features
-- Target: `diabetes_012` (0 = healthy, 1 = pre-diabetes, 2 = diabetes)
+- Target: diabetes_012 (0 = healthy, 1 = pre-diabetes, 2 = diabetes)
 
 ---
 
@@ -58,10 +58,10 @@ This project aims to build a predictive model that identifies individuals at ris
 ---
 
 ## Files
-- `Diabetes Prediction Model1_Balanced.ipynb` — Full modeling and evaluation code for Model 1
-- `Diabetes Prediction Model2_basemodel_Imbalanced.ipynb` — Full modeling and evaluation code for Model 2
-- `Diabetes Prediction Model3_Smote_Imbalanced.ipynb` — Full modeling and evaluation code for Model 3
-- `README.md` — Project overview
+- Diabetes Prediction Model1_Balanced.ipynb — Full modeling and evaluation code for Model 1
+- Diabetes Prediction Model2_basemodel_Imbalanced.ipynb — Full modeling and evaluation code for Model 2
+- Diabetes Prediction Model3_Smote_Imbalanced.ipynb — Full modeling and evaluation code for Model 3
+- README.md — Project overview
 
 ---
 
