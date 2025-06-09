@@ -9,13 +9,13 @@ Develop a machine learning model to predict responder_6 using a large, anonymize
 - **Languages:** Python  
 - **Libraries:** Pandas, NumPy, Scikit-learn, XGBoost, LightGBM, Matplotlib, Seaborn  
 - **ML Techniques:** Feature selection, normalization, cross-validation, ensemble models, PCA  
-- **Environment:** Google Colab, local high-performance machine (Windows/Linux)
+- **Environment:** Google Colab
 
 ---
 
 ## Dataset Summary
 - 47M rows, 92 anonymized features
-- Target: `responder_6` — modeled as a regression problem
+- Target: responder_6 — modeled as a regression problem
 - Source: [Kaggle Competition](https://www.kaggle.com/competitions/jane-street-market-prediction)
 
 ---
