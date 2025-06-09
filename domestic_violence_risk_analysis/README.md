@@ -1,6 +1,6 @@
 # Domestic Violence Risk Analysis
 
-This notebook was created as a self-guided portfolio exercise. The dataset is sourced from Kaggle and contains information on domestic violence against women in a specific rural area of a developing country. The project investigates the correlation between socio-economic factors and the experience of domestic violence using exploratory analysis and classification models.
+This notebook was created as a self-guided portfolio exercise. The dataset is sourced from Kaggle and contains information on domestic violence against women in a specific rural area of a developing country. The project objective is to investigate the correlation between socio-economic factors and the experience of domestic violence using exploratory analysis and classification models.
 
 ## Dataset Description
 
