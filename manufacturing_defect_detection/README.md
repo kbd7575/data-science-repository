@@ -1,6 +1,6 @@
 # Manufacturing Defect Classification
 
-This project builds a classification model to predict defect status in a manufacturing environment using structured production data. The goal is to identify defective materials before they move downstream in the supply chain, reducing waste and improving product quality.
+This project builds a classification model to predict defect status in a manufacturing environment using structured production data. The project objective is to identify defective materials before they move downstream in the supply chain. Early defect identification can reduce waste, improve product quality, and reduce operating cost.
 
 ---
 
