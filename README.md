@@ -47,7 +47,8 @@ Explored 120 years of Olympic data to analyze gender participation, medal distri
 
 ---
 
-### [Project 6](./Project 6) Image Classification
+### [Satellite Image Prediction](./satellite_image_prediction)
+> Deep Learning | Classification | CNN, ResNet50 
 
 ---
 
