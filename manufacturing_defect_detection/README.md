@@ -26,7 +26,7 @@ This project builds a classification model to predict defect status in a manufac
 - Histogram and boxplot visualizations
 - No missing values detected
 - Low outlier impact
-- Imbalance in `DefectStatus` observed
+- Imbalance in DefectStatus observed
 
 ### 2. Baseline Modeling
 - Scaled all features using StandardScaler
