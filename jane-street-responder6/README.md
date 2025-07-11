@@ -1,6 +1,6 @@
 # Jane Street Real-Time Market Data Forecasting
 
-**Goal:**  
+## Goal:
 Develop a machine learning model to predict responder_6 using a large, anonymized financial time-series dataset (47M+ rows) from a Kaggle competition hosted by Jane Street Group. The objective was to identify features with predictive power and model the behavior of a noisy target variable under real-world financial constraints.
 
 ---
