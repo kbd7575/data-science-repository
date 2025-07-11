@@ -9,7 +9,7 @@ B.S. Chemical Engineering | 12+ years experience
 
 ## About Me
 
-I'm a data scientist with a background in chemical manufacturing and process design engineering. I have extensive experience in building chemical engineering models, designing case studies and plant tests, technical calculations, and data anaysis. I also bring over a decade of project execution experience to the table. Now I would like to apply my analytical and technical skills to solving real-world challenges in pharmaceuticals, life sciences, and industrial data environments.
+I'm a data scientist with a background in chemical manufacturing and process design engineering. I have extensive experience in building chemical engineering models, designing case studies and plant tests, technical calculations, and data analysis. I also bring over a decade of project execution experience to the table. Now I would like to apply my analytical and technical skills to solving real-world challenges in pharmaceuticals, life sciences, and industrial data environments.
 
 This portfolio showcases practical applications of machine learning, predictive analytics, and data visualization.
 
