@@ -1,64 +1,140 @@
-# data-science-repository
-Data Science Portfolio
-# Kéli Duggar | Data Science Portfolio
+# Consumer Complaint Classification with Text Mining
 
-M.S. Applied Data Science (in progress)  
-B.S. Chemical Engineering | 12+ years experience  
-
----
-
-## About Me
-
-I'm a data scientist with a background in chemical manufacturing and process design engineering. I have extensive experience in building chemical engineering models, designing case studies and plant tests, technical calculations, and data analysis. I also bring over a decade of project execution experience to the table. Now I would like to apply my analytical and technical skills to solving real-world challenges in data science environments.
-
-This portfolio showcases practical applications of machine learning, predictive analytics, and data visualization.
+Author: Keli Duggar  
+Course: IST 736 – Text Mining  
+Institution: Syracuse University  
 
 ---
 
-## Projects
+## Project Overview
 
-### [Manufacturing Defect Detection](./manufacturing_defect_detection)
-> Manufacturing | Regression | Classification | Random Forest, LightGBM, Logistic Regression | Feature Engineering
-Developed a binary classification model to identify defective materials. Compared performance of 3 baseline models with no feature engineering and 3 models with feature engineering. Selected final model based on high performance in all metrics especially recall. Baseline LightGBM achieved 0.95 recall and 0.85 ROC AUC.
+This project evaluates how different text mining techniques perform in classifying consumer financial complaints. Using data from the Consumer Financial Protection Bureau (CFPB), the goal is to predict the product category of a complaint based on its narrative text.
 
 ---
 
-### [Domestic Violence EDA and Risk Assessment](./domestic_violence_risk_analysis)
-> Data Visualization | EDA | Classification | Pandas, Seaborn, Matplotlib, Decision Tree
-Analyzed data to determine what demographic and socio-economic factors put the women in a specific community at the most risk for domestic violence.
+## Objectives
+
+- Build a multi-class classification system for complaint narratives  
+- Compare multiple modeling approaches  
+- Evaluate performance using robust metrics  
 
 ---
 
-### [Jane Street Market Prediction](./jane-street-responder6)
-> Time Series Forecasting | Financial ML | XGBoost, Feature Engineering  
-Used 47M-row anonymized market dataset from Kaggle to predict a noisy regression target (responder_6). Achieved R² of 0.0129 with tuned ensemble models.
+## Dataset
+
+- Source: CFPB Consumer Complaint Database  
+- Timeframe: Most recent 3 months  
+- Size: 310,808 rows and 18 columns  
+
+Key fields:
+- clean_text: complaint narrative  
+- product_short: product category (target)  
+
+Notes:
+- Only complaints with narratives were used  
+- Missing labels were removed  
 
 ---
 
-### [Diabetes Risk Classification](./diabetes-prediction)
-> Healthcare | Classification | Random Forest, Logistic Regression  
-Developed a binary classification model to identify likely undiagnosed diabetes cases using medical record data. Highest F1 Score: 0.91.
+## Methodology
+
+1. Rule-Based Model (Baseline)  
+   - Keyword-based classification  
+
+2. TF-IDF + Support Vector Machine  
+   - Text vectorization with TF-IDF  
+   - Linear SVM classifier  
+
+3. BERT  
+   - Transformer-based classification  
+   - Context-aware embeddings  
+
+4. Large Language Model (ChatGPT)  
+   - Zero-shot or few-shot classification  
 
 ---
 
-### [Olympics Data Analysis](./olympics-eda)
-> Data Visualization | EDA | Pandas, Seaborn, Matplotlib
-Explored 120 years of Olympic data to analyze gender participation, medal distribution, and event growth using visual storytelling techniques.
+## Evaluation Metrics
+
+- Accuracy  
+- Macro F1 Score  
+- Precision and Recall  
+- Confusion Matrix  
 
 ---
 
-## Skills & Tools
+## Results Summary
 
-- **Languages:** Python, R, SQL  
-- **Libraries:** Scikit-learn, XGBoost, LightGBM,  Keras, Pandas, NumPy, Seaborn, Matplotlib, PySpark
-- **Tools:** Git, Jupyter, Google Colab, Excel, Aspen HYSYS, ProMax  
-- **Learning:** NLP, TensorFlow
+Model        | Accuracy | Macro F1  
+-------------|----------|----------  
+Baseline     | 0.64     | 0.62  
+SVM          | 0.89     | 0.89  
+BERT         | 0.90     | 0.90  
+LLM          | 0.73     | 0.73  
 
 ---
 
-## Connect With Me
+## Key Findings
 
-- [LinkedIn](https://www.linkedin.com/in/kéli-duggar-84889299)
-- [Email Me](mailto:keliduggar@gmail.com)
-- [View My Resume](./documents/Resume%20of%20Keli%20Duggar.pdf)
+- BERT achieved the highest performance  
+- SVM performed nearly as well as BERT  
+- LLM results were inconsistent across categories  
+- Baseline model overpredicted certain classes  
 
+---
+
+## Generalization
+
+- Baseline: Poor generalization  
+- SVM: Good within financial domain  
+- BERT: Good within financial domain  
+- LLM: Moderate cross-domain adaptability  
+
+---
+
+## Ethical Considerations
+
+- Data is anonymized but may contain sensitive financial content  
+- Used only for academic purposes  
+- Models should not be used to unfairly prioritize complaints  
+
+---
+
+## Repository Structure
+
+data/                  Processed dataset  
+notebooks/             Jupyter notebooks  
+report/                Final project report  
+README.md              Project documentation  
+
+---
+
+## How to Run
+
+1. Clone the repository  
+2. Install dependencies  
+
+pip install pandas scikit-learn transformers datasets  
+
+3. Run the notebook  
+
+jupyter notebook  
+
+4. Execute the main notebook file  
+
+---
+
+## References
+
+Consumer Financial Protection Bureau. Twelve Years of Protecting Consumers and Honest Businesses.  
+
+Boak, Josh. Trump Administration Orders Consumer Protection Bureau to Stop Some Work. AP News, 2025.  
+
+---
+
+## Future Improvements
+
+- Hyperparameter tuning  
+- Improved handling of class imbalance  
+- Fine-tuning LLM models  
+- Model explainability methods  
