@@ -45,16 +45,6 @@ The Consumer Financial Protection Bureau receives a large volume of consumer com
 - Baseline model overpredicted certain classes
 - Some categories had overlapping language
 
-## Repository Structure
-
-.
-├── data  
-├── notebooks  
-│   └── Keli_Duggar_Final_Project_Code.ipynb  
-├── report  
-│   └── Keli_Duggar_Final_Project.docx  
-└── README.md  
-
 ## How to Run
 
 1. Install dependencies
