@@ -2,7 +2,7 @@
 
 ## Kéli Duggar
 
-**M.S. Applied Data Science (in progress)**\
+**M.S. Applied Data Science (Expected Graduation Dec 2026)**\
 **B.S. Chemical Engineering \| 12+ years experience**
 
 Author: Keli Duggar\
