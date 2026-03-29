@@ -97,6 +97,24 @@ medal distribution, and event growth using visual storytelling
 techniques.
 
 ------------------------------------------------------------------------
+### [Consumer Complaint Database Text Mining]()
+
+**NLP \| Text Classification \| BERT, SVM, LLM \| Feature Engineering**
+Developed a text classification pipeline to analyze and categorize unstructured text data using 
+both traditional machine learning and transformer-based approaches. The project focused on 
+comparing model performance across different methodologies, including classical models (SVM),
+deep learning (BERT), and large language models (LLMs). Implemented a full NLP workflow including
+text preprocessing, tokenization, vectorization, and model evaluation. Evaluated performance
+using accuracy and macro F1 score to assess classification effectiveness across imbalanced
+classes.
+
+------------------------------------------------------------------------
+
+### [Movie Sentiment Analysis](x)
+
+
+
+------------------------------------------------------------------------
 
 ## Skills & Tools
 
