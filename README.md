@@ -6,7 +6,6 @@
 **B.S. Chemical Engineering \| 12+ years experience**
 
 Author: Keli Duggar\
-Course: IST 736 -- Text Mining\
 Institution: Syracuse University
 
 ------------------------------------------------------------------------
@@ -60,19 +59,7 @@ violence risk within a specific community.
 
 #### Results Summary
 
-  Model      Accuracy   Macro F1
-  ---------- ---------- ----------
-  Baseline   0.64       0.62
-  SVM        0.89       0.89
-  BERT       0.90       0.90
-  LLM        0.73       0.73
 
-#### Key Findings
-
--   BERT achieved the highest performance\
--   SVM performed nearly as well as BERT\
--   LLM results were inconsistent across categories\
--   Baseline model overpredicted certain classes
 
 ------------------------------------------------------------------------
 
@@ -85,12 +72,8 @@ Used a 47M-row anonymized market dataset from Kaggle to predict a noisy
 regression target (responder_6). Achieved an R² of 0.0129 with tuned
 ensemble models.
 
-#### Generalization
+#### Results Summary
 
--   Baseline: Poor generalization\
--   SVM: Good within financial domain\
--   BERT: Good within financial domain\
--   LLM: Moderate cross-domain adaptability
 
 ------------------------------------------------------------------------
 
