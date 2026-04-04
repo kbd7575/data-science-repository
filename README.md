@@ -10,7 +10,7 @@ Institution: Syracuse University
 
 ------------------------------------------------------------------------
 
-## About Me
+## Overview
 
 I'm a data scientist with a background in chemical manufacturing and
 process design engineering. I have extensive experience in building
@@ -23,6 +23,28 @@ real-world challenges in data science environments.
 
 This portfolio showcases practical applications of machine learning,
 predictive analytics, and data visualization.
+
+------------------------------------------------------------------------
+## Highlights
+10+ years engineering experience applied to data-driven problem solving
+Experience working with large-scale datasets (40M+ rows)
+Strong focus on real-world impact and model performance
+Background in process optimization, cost savings, project execution, and technical analysis
+
+------------------------------------------------------------------------
+## Technical Skills
+
+**Languages:**\
+Python, R, SQL
+
+**Libraries:**\
+Scikit-learn, XGBoost, LightGBM, Keras, PySpark, TensorFlow, HuggingFace
+
+**Data Analysis and Visualization:**\
+Pandas, NumPy, Seaborn, Matplotlib
+
+**Tools:**\
+Git, Jupyter, Google Colab, Excel, Aspen HYSYS, ProMax
 
 ------------------------------------------------------------------------
 
@@ -102,30 +124,14 @@ Result: Achieved highest performance with BERT and SVM (approximately 0.90 accur
 
 ------------------------------------------------------------------------
 
-### [Movie Sentiment Analysis](x)
+### [Movie Sentiment Analysis](Movie Review Sentiment Analysis)
+**NLP \| Text Classification \|Class Imbalance\| Feature Engineering|**
 
 Built multi-class classification models to predict sentiment from short movie review phrases
 Performed text preprocessing, tokenization, and feature engineering using Bag of Words
 Conducted experiments with stopword removal, vocabulary size reduction, POS features, and sentiment lexicons
 Models: Naive Bayes, Logistic Regression
 Result: Achieved improved macro F1 score through feature engineering, with best performance from reduced vocabulary and stopword removal
-
-------------------------------------------------------------------------
-
-## Skills & Tools
-
-**Languages:**\
-Python, R, SQL
-
-**Libraries:**\
-Scikit-learn, XGBoost, LightGBM, Keras, Pandas, NumPy, Seaborn,
-Matplotlib, PySpark
-
-**Tools:**\
-Git, Jupyter, Google Colab, Excel, Aspen HYSYS, ProMax
-
-**Currently Learning:**\
-NLP, TensorFlow
 
 ------------------------------------------------------------------------
 
