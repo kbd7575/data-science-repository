@@ -33,19 +33,11 @@ predictive analytics, and data visualization.
 **Manufacturing \| Regression \| Classification \| Random Forest,
 LightGBM, Logistic Regression \| Feature Engineering**
 
-Developed a binary classification model to identify defective materials.
-Compared performance of three baseline models (no feature engineering)
-with three models using engineered features. Selected the final model
-based on strong performance across all metrics, especially recall.
-
--   Baseline LightGBM achieved:
-    -   Recall: 0.95\
-    -   ROC AUC: 0.85
-
-**Metrics Evaluated:** - Accuracy\
-- Macro F1 Score\
-- Precision and Recall\
-- Confusion Matrix
+Built classification models to identify defective materials in a manufacturing dataset
+Compared baseline models with feature-engineered models to evaluate performance improvements
+Performed feature engineering including interaction terms and categorical binning
+Models: Logistic Regression, Random Forest, LightGBM
+Result: Achieved 0.954 ROC AUC with improved recall using feature-engineered models
 
 ------------------------------------------------------------------------
 
@@ -54,12 +46,11 @@ based on strong performance across all metrics, especially recall.
 **Data Visualization \| EDA \| Classification \| Pandas, Seaborn,
 Matplotlib, Decision Tree**
 
-Analyzed demographic and socio-economic factors contributing to domestic
-violence risk within a specific community.
-
-#### Results Summary
-
-
+Developed predictive models to identify individuals at higher risk of domestic violence incidents using structured data
+Performed data preprocessing, feature analysis, and handling of sensitive and imbalanced data
+Built and evaluated classification models to support risk identification and prevention efforts
+Models: Logistic Regression, Random Forest, Gradient Boosting
+Result: Demonstrated ability to identify high-risk cases while balancing precision and recall in an imbalanced dataset
 
 ------------------------------------------------------------------------
 
@@ -68,12 +59,11 @@ violence risk within a specific community.
 **Time Series Forecasting \| Financial ML \| XGBoost, Feature
 Engineering**
 
-Used a 47M-row anonymized market dataset from Kaggle to predict a noisy
-regression target (responder_6). Achieved an R² of 0.0129 with tuned
-ensemble models.
-
-#### Results Summary
-
+Built predictive models on a large-scale financial time series dataset (42 million plus rows)
+Focused on forecasting a proprietary target variable up to six months ahead
+Performed feature selection, handled data leakage, and engineered time-based features
+Models: XGBoost, Random Forest
+Result: Achieved R² score of 0.0129, close to top competition performance
 
 ------------------------------------------------------------------------
 
@@ -81,10 +71,11 @@ ensemble models.
 
 **Healthcare \| Classification \| Random Forest, Logistic Regression**
 
-Developed a binary classification model to identify likely undiagnosed
-diabetes cases using medical record data.
-
--   Highest F1 Score: 0.91
+Built a binary classification model to predict diabetes diagnosis using patient health data
+Performed data preprocessing, feature analysis, and model comparison
+Evaluated models using accuracy, precision, recall, and F1 score
+Models: Logistic Regression, Random Forest, Gradient Boosting
+Result: Achieved 92 percent accuracy with strong F1 score using Gradient Boosting
 
 ------------------------------------------------------------------------
 
@@ -92,27 +83,32 @@ diabetes cases using medical record data.
 
 **Data Visualization \| EDA \| Pandas, Seaborn, Matplotlib**
 
-Explored 120 years of Olympic data to analyze gender participation,
-medal distribution, and event growth using visual storytelling
-techniques.
+Performed exploratory data analysis on historical Olympic Games data spanning over 100 years of athlete performance, events, and medal results
+Analyzed trends in athlete demographics, country performance, and medal distribution across time
+Conducted data cleaning, feature exploration, and visualization to uncover patterns in participation and outcomes
+Tools: Python, Pandas, Matplotlib, Seaborn
+Result: Identified key trends in Olympic performance, including country dominance, gender participation changes, and evolution of events
 
 ------------------------------------------------------------------------
 ### [Consumer Complaint Database Text Mining]()
 
 **NLP \| Text Classification \| BERT, SVM, LLM \| Feature Engineering**
-Developed a text classification pipeline to analyze and categorize unstructured text data using 
-both traditional machine learning and transformer-based approaches. The project focused on 
-comparing model performance across different methodologies, including classical models (SVM),
-deep learning (BERT), and large language models (LLMs). Implemented a full NLP workflow including
-text preprocessing, tokenization, vectorization, and model evaluation. Evaluated performance
-using accuracy and macro F1 score to assess classification effectiveness across imbalanced
-classes.
+
+Built multi-class classification models to categorize consumer financial complaints based on narrative text
+Compared rule-based, traditional machine learning, transformer-based, and large language model approaches
+Applied text preprocessing, feature extraction, and model evaluation across multiple techniques
+Models: Rule-Based, TF-IDF + SVM, BERT, ChatGPT
+Result: Achieved highest performance with BERT and SVM (approximately 0.90 accuracy and F1), outperforming baseline and LLM approaches
 
 ------------------------------------------------------------------------
 
 ### [Movie Sentiment Analysis](x)
 
-
+Built multi-class classification models to predict sentiment from short movie review phrases
+Performed text preprocessing, tokenization, and feature engineering using Bag of Words
+Conducted experiments with stopword removal, vocabulary size reduction, POS features, and sentiment lexicons
+Models: Naive Bayes, Logistic Regression
+Result: Achieved improved macro F1 score through feature engineering, with best performance from reduced vocabulary and stopword removal
 
 ------------------------------------------------------------------------
 
