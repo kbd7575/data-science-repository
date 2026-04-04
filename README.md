@@ -112,7 +112,7 @@ Tools: Python, Pandas, Matplotlib, Seaborn
 Result: Identified key trends in Olympic performance, including country dominance, gender participation changes, and evolution of events
 
 ------------------------------------------------------------------------
-### [consumer complaint database text mining]
+### [Consumer Complaint Database Text Mining](./consumer complaint database text mining)
 
 **NLP \| Text Classification \| BERT, SVM, LLM \| Feature Engineering**
 
@@ -124,7 +124,7 @@ Result: Achieved highest performance with BERT and SVM (approximately 0.90 accur
 
 ------------------------------------------------------------------------
 
-### [Movie Review Sentiment Analysis]
+### [Movie Review Sentiment Analysis](./movie_review_sentiment_analysis)
 **NLP \| Text Classification \|Class Imbalance\| Feature Engineering|**
 
 Built multi-class classification models to predict sentiment from short movie review phrases
