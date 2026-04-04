@@ -112,7 +112,7 @@ Tools: Python, Pandas, Matplotlib, Seaborn
 Result: Identified key trends in Olympic performance, including country dominance, gender participation changes, and evolution of events
 
 ------------------------------------------------------------------------
-### [Consumer Complaint Database Text Mining](./consumer complaint database text mining)
+### [Consumer Complaint Database Text Mining](./consumer_complaint_database_text_mining)
 
 **NLP \| Text Classification \| BERT, SVM, LLM \| Feature Engineering**
 
