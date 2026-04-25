@@ -3,7 +3,7 @@
 ## Kéli Duggar
 
 **M.S. Applied Data Science (Expected Graduation Dec 2026)**\
-**B.S. Chemical Engineering \| 12+ years experience**
+**B.S. Chemical Engineering \| 10+ years experience**
 
 Author: Keli Duggar\
 Institution: Syracuse University
@@ -27,8 +27,11 @@ predictive analytics, and data visualization.
 ------------------------------------------------------------------------
 ## Highlights
 10+ years engineering experience applied to data-driven problem solving
+
 Experience working with large-scale datasets (40M+ rows)
+
 Strong focus on real-world impact and model performance
+
 Background in process optimization, cost savings, project execution, and technical analysis
 
 ------------------------------------------------------------------------
