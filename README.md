@@ -141,5 +141,4 @@ Result: Achieved improved macro F1 score through feature engineering, with best 
 ## Connect With Me
 
 -   LinkedIn: https://www.linkedin.com/in/kéli-duggar-84889299\
--   Email: keliduggar@gmail.com\
--   Resume: ./documents/Resume%20of%20Keli%20Duggar.pdf
+-   Email: keliduggar@gmail.com
